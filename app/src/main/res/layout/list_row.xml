@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp">
+
+        <ImageView
+            android:id="@+id/listimage"
+            android:layout_width="120dp"
+            android:layout_height="130dp"
+            android:src="@drawable/hospital_logo"
+            android:layout_marginBottom="10dp"/>
+
+        <LinearLayout
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:id="@+id/listname"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:ellipsize="end"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12dp"
+                android:maxLines="2"
+                android:ellipsize="end"
+                android:id="@+id/listdescription"
+                android:textColor="#000000"
+                 />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
